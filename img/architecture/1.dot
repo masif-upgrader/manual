@@ -1,0 +1,11 @@
+digraph {
+	rankdir=LR;
+
+	database -> UI [dir=back label="overview"]
+	master -> database [label="store"];
+	{agent1 agent2 agent3} -> master [label="report"];
+
+	agent1 [label="agent 1"];
+	agent2 [label="agent 2"];
+	agent3 [label="agent 3"];
+}
