@@ -64,6 +64,15 @@ e.g. with [easy-rsa]:
 * All agents' certificates shall be signed with the same root CA
   and have distinct CNs as they're identified by their CN.
 
+## Setup
+
+Once all requirements described above are fulfilled,
+Masif Upgrader's components can be set up one by one. Recommended order:
+
+1. [master]
+2. [agents][agent]
+3. [UI]
+
 [agent]: https://github.com/masif-upgrader/agent
 [master]: https://github.com/masif-upgrader/master
 [UI]: https://github.com/masif-upgrader/icingaweb2-module-masifupgrader
